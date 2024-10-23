@@ -109,11 +109,11 @@ const Ball = () => {
     const getBackground = () => {
         switch (selectedButton) {
             case 'Basketball':
-                return "url('/img/basketball.png')";
+                return "url('../../../img/basketball.png')";
             case 'Football':
-                return "url('/img/football.png')";
+                return "url('../../../img/football.png')";
             case 'Volleyball':
-                return "url('/img/volleyball.png')";
+                return "url('../../../img/volleyball.png')";
             case 'Human':
                 return "url('/img/WorathepTara.png')";
             case 'Cartoon':

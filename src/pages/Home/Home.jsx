@@ -1,4 +1,5 @@
 import "./Home.css";
+import profile from "../../assets/WorathepTara.png";
 
 function Home() {
   return (
@@ -7,7 +8,7 @@ function Home() {
       <div className="box1">
         <span>
           <div className="profile">
-            <img src="./src/assets/WorathepTara.png" className="profilePic"></img>
+            <img src={profile} className="profilePic"></img>
           </div>
           <div className="home-text">
             <h2 className="home-title">
