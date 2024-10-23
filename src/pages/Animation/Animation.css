@@ -1,0 +1,62 @@
+#animation-container {
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px auto;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#animation-field {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 10px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-image: url('/img/field.Jpg');
+
+    /* variable */
+    width: 700px;
+    height: 400px;
+    position: relative;
+}
+
+#ball {
+    border-radius: 50%;
+    position: relative;
+    /* variable */
+    width: 50px;
+    height: 50px;
+}
+
+#control {
+    margin: 10px;
+    text-align: center;
+    flex: space-between;
+}
+
+.basketball {
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+/* ปุ่มที่เลือก */
+.button-selected {
+    background-color: #007bff; /* สีพื้นหลังเมื่อเลือก */
+    color: white; /* สีข้อความเมื่อเลือก */
+    border: none; /* ไม่มีเส้นขอบ */
+    border-radius: 5px;
+    height: 35px;
+    width: auto;
+    margin: 2px;
+}
+
+/* ปุ่มที่ไม่ได้เลือก */
+.button-not-selected {
+    background-color: white; /* สีพื้นหลังเมื่อไม่เลือก */
+    color: black; /* สีข้อความเมื่อไม่เลือก */
+    border: 1px solid #007bff; /* เส้นขอบ */
+    border-radius: 5px;
+    height: 35px;
+    width: auto;
+    margin: 2px;
+}

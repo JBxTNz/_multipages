@@ -1,0 +1,25 @@
+.cart-container{
+    border: 1px solid black;
+    height: 700px;
+    margin: 10px;
+}
+
+.cart-items-container{
+    margin:10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    height: 560px;
+    overflow-y: auto;
+    align-items: start;
+}
+
+.cart-total{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.checkout-button{
+    text-align: center;
+}
