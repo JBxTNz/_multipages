@@ -291,7 +291,7 @@ const Ball = () => {
             case 'Volleyball':
                 return "url('volleyball.png')";
             case 'Human':
-                return "url('Araya.jpg')";
+                return "url('WorathepTara.jpg')";
             case 'Cartoon':
                 return "url('cartoon.jpg')";
             case 'Logo':
