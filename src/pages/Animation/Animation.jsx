@@ -287,7 +287,7 @@ const Ball = () => {
             case 'Basketball':
                 return basketball;
             case 'Football':
-                return "url('football.png')";
+                return "url('../../../public/img/football.png')";
             case 'Volleyball':
                 return "url('volleyball.png')";
             case 'Human':
