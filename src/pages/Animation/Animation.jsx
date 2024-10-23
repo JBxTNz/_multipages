@@ -173,12 +173,12 @@
 import React, { useState, useEffect } from 'react';
 import './Animation.css';
 
-import basketball from '../../../public/img/basketball.png';
-import football from '../../../public/img/football.png';
-import cartoon from '../../../public/img/amongus-fun.jpg';
-import human from '../../../public/img/WorathepTara.png';
-import volleyball from '../../../public/img/volleyball.png';
-import logo from '../../../public/img/Iboss.png';
+import basketball from '../../../public/basketball.png';
+import football from '../../../public/football.png';
+import cartoon from '../../../public/amongus-fun.jpg';
+import human from '../../../public/WorathepTara.png';
+import volleyball from '../../../public/volleyball.png';
+import logo from '../../../public/Iboss.png';
 
 
 
