@@ -171,12 +171,6 @@
 import React, { useState, useEffect } from 'react';
 import './Animation.css';
 
-import basketball from '../../../public/img/basketball.png';
-import football from '../../../public/img/football.png';
-import volleyball from '../../../public/img/volleyball.png';
-import human from '../../../public/img/WorathepTara.png';
-import cartoon from '../../../public/img/amogus-fun.jpg';
-import logo from '../../../public/img/Iboss.png';
 
 const Ball = () => {
     const fieldWidth = 600;
