@@ -1,4 +1,4 @@
-#animation-container {
+/* #animation-container {
     border: 1px solid rgb(0, 0, 0);
     margin: 10px auto;
     width: fit-content;
@@ -14,7 +14,7 @@
     background-position: center;
     background-image: url('/img/field.Jpg');
 
-    /* variable */
+
     width: 700px;
     height: 400px;
     position: relative;
@@ -23,7 +23,7 @@
 #ball {
     border-radius: 50%;
     position: relative;
-    /* variable */
+
     width: 50px;
     height: 50px;
 }
@@ -39,24 +39,60 @@
     background-position: center;
 }
 
-/* ปุ่มที่เลือก */
+
 .button-selected {
-    background-color: #007bff; /* สีพื้นหลังเมื่อเลือก */
-    color: white; /* สีข้อความเมื่อเลือก */
-    border: none; /* ไม่มีเส้นขอบ */
+    background-color: #007bff;
+    color: white;
+    border: none;
     border-radius: 5px;
     height: 35px;
     width: auto;
     margin: 2px;
 }
 
-/* ปุ่มที่ไม่ได้เลือก */
+
 .button-not-selected {
-    background-color: white; /* สีพื้นหลังเมื่อไม่เลือก */
-    color: black; /* สีข้อความเมื่อไม่เลือก */
-    border: 1px solid #007bff; /* เส้นขอบ */
+    background-color: white;
+    color: black;
+    border: 1px solid #007bff;
     border-radius: 5px;
     height: 35px;
     width: auto;
     margin: 2px;
+} */
+
+
+#container {
+    margin: 10px auto;
+    border: 1px solid green;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#field {
+    border-radius: 5px;
+    border: 1px solid red;
+    margin: 10px;
+    background-position: center;
+    background-image: url('/img/field.jpg');
+    width: 700px;
+    height: 400px;
+    position: relative;
+}
+
+#ball {
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    transition: transform 0.1s;
+}
+
+#control {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
 }
