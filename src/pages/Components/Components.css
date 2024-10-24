@@ -1,7 +1,7 @@
 .components-container {
   border: 1px solid black;
   margin: 10px;
-  background-image: url('./src/assets/Component-bg.jpg');
+  background-image: url('../../assets/Component-Bg.jpg');
   background-position: 100% 100%;
   background-size: 100% 100%;
   background-repeat: no-repeat;
