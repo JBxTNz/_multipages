@@ -1,5 +1,6 @@
 import "./Home.css";
 import profile from "../../assets/WorathepTara.png";
+import AMOGUS from "../../../public/img/amongTwerk.gif";
 
 function Home() {
   return (
@@ -29,7 +30,7 @@ function Home() {
         <br />
         <h3>Quote : "Loneliness is a tax, You never run from it"</h3>
         <center className="gif-container">
-          <img className="gif" src="./public/img/amongTwerk.gif" alt="" srcset="" />
+          <img className="gif" src={AMOGUS} alt="" srcset="" />
         </center>
         <span className="meme-title">Hover it &rArr;</span>
       </div>

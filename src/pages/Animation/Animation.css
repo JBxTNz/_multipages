@@ -75,7 +75,7 @@
     border: 1px solid red;
     margin: 10px;
     background-position: center;
-    background-image: url('/img/field.jpg');
+    background-image: url('../../../public/img/field.jpg');
     width: 700px;
     height: 400px;
     position: relative;
